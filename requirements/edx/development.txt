@@ -133,7 +133,6 @@ bleach[css]==6.2.0
     #   edx-enterprise
     #   lti-consumer-xblock
     #   openedx-django-wiki
-    #   ora2
     #   xblock-drag-and-drop-v2
     #   xblock-poll
 boto==2.49.0
@@ -146,7 +145,6 @@ boto3==1.37.38
     #   -r requirements/edx/testing.txt
     #   django-ses
     #   fs-s3fs
-    #   ora2
     #   snowflake-connector-python
 botocore==1.37.38
     # via
@@ -321,7 +319,6 @@ defusedxml==0.7.1
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
     #   djangorestframework-xml
-    #   ora2
     #   python3-openid
     #   social-auth-core
 diff-cover==9.2.4
@@ -405,7 +402,6 @@ django==4.2.20
     #   openedx-filters
     #   openedx-forum
     #   openedx-learning
-    #   ora2
     #   social-auth-app-django
     #   super-csv
     #   xblock-google-drive
@@ -500,7 +496,6 @@ django-model-utils==5.0.0
     #   edx-submissions
     #   edx-when
     #   edxval
-    #   ora2
     #   super-csv
 django-mptt==0.17.0
     # via
@@ -558,7 +553,6 @@ django-simple-history==3.4.0
     #   edx-name-affirmation
     #   edx-organizations
     #   edx-proctoring
-    #   ora2
 django-statici18n==2.6.0
     # via
     #   -r requirements/edx/doc.txt
@@ -619,7 +613,6 @@ djangorestframework==3.14.0
     #   edx-submissions
     #   openedx-forum
     #   openedx-learning
-    #   ora2
     #   super-csv
 djangorestframework-stubs==3.15.3
     # via -r requirements/edx/development.in
@@ -722,7 +715,6 @@ edx-django-utils==7.4.0
     #   edx-when
     #   event-tracking
     #   openedx-events
-    #   ora2
     #   super-csv
 edx-drf-extensions==10.6.0
     # via
@@ -755,7 +747,6 @@ edx-i18n-tools==1.5.0
     #   -c requirements/edx/../constraints.txt
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
-    #   ora2
     #   xblocks-contrib
 edx-lint==5.6.0
     # via -r requirements/edx/testing.txt
@@ -783,7 +774,6 @@ edx-opaque-keys[django]==3.0.0
     #   lti-consumer-xblock
     #   openedx-events
     #   openedx-filters
-    #   ora2
 edx-organizations==6.13.0
     # via
     #   -r requirements/edx/doc.txt
@@ -817,7 +807,6 @@ edx-submissions==3.10.0
     # via
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
-    #   ora2
 edx-tincan-py35==2.0.0
     # via
     #   -r requirements/edx/doc.txt
@@ -835,7 +824,6 @@ edx-toggles==5.3.0
     #   edx-search
     #   edxval
     #   event-tracking
-    #   ora2
 edx-when==2.5.1
     # via
     #   -r requirements/edx/doc.txt
@@ -1034,7 +1022,6 @@ html5lib==1.1
     # via
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
-    #   ora2
 httpcore==0.16.3
     # via
     #   -r requirements/edx/testing.txt
@@ -1131,7 +1118,6 @@ jsonfield==3.1.0
     #   edx-proctoring
     #   edx-submissions
     #   lti-consumer-xblock
-    #   ora2
 jsonschema==4.23.0
     # via
     #   -r requirements/edx/doc.txt
@@ -1165,17 +1151,11 @@ lazy==1.6
     #   -r requirements/edx/testing.txt
     #   acid-xblock
     #   lti-consumer-xblock
-    #   ora2
     #   xblock
 libsass==0.10.0
     # via
     #   -c requirements/edx/../constraints.txt
     #   -r requirements/edx/assets.txt
-loremipsum==1.0.5
-    # via
-    #   -r requirements/edx/doc.txt
-    #   -r requirements/edx/testing.txt
-    #   ora2
 lti-consumer-xblock==9.13.4
     # via
     #   -r requirements/edx/doc.txt
@@ -1190,7 +1170,6 @@ lxml[html-clean]==5.3.2
     #   lxml-html-clean
     #   olxcleaner
     #   openedx-calc
-    #   ora2
     #   pyquery
     #   python3-saml
     #   xblock
@@ -1367,13 +1346,11 @@ openedx-events==10.2.0
     #   edx-event-bus-redis
     #   edx-name-affirmation
     #   event-tracking
-    #   ora2
 openedx-filters==2.0.1
     # via
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
     #   lti-consumer-xblock
-    #   ora2
 openedx-forum==0.3.4
     # via
     #   -r requirements/edx/doc.txt
@@ -1388,10 +1365,6 @@ openedx-mongodbproxy==0.2.2
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
 optimizely-sdk==5.2.0
-    # via
-    #   -r requirements/edx/doc.txt
-    #   -r requirements/edx/testing.txt
-ora2==6.16.1
     # via
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
@@ -1428,7 +1401,6 @@ path-py==12.5.0
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
     #   edx-enterprise
-    #   ora2
     #   staff-graded-xblock
 pbr==6.1.1
     # via
@@ -1715,7 +1687,6 @@ python-dateutil==2.9.0.post0
     #   freezegun
     #   icalendar
     #   olxcleaner
-    #   ora2
     #   xblock
 python-ipware==3.0.0
     # via
@@ -1727,11 +1698,6 @@ python-slugify==8.0.4
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
     #   code-annotations
-python-swiftclient==4.7.0
-    # via
-    #   -r requirements/edx/doc.txt
-    #   -r requirements/edx/testing.txt
-    #   ora2
 python3-openid==3.2.0 ; python_version >= "3"
     # via
     #   -r requirements/edx/doc.txt
@@ -1755,7 +1721,6 @@ pytz==2025.2
     #   event-tracking
     #   fs
     #   olxcleaner
-    #   ora2
     #   snowflake-connector-python
     #   xblock
 pyuca==1.2
@@ -1824,7 +1789,6 @@ requests==2.32.3
     #   pact-python
     #   pyjwkest
     #   pylti1p3
-    #   python-swiftclient
     #   requests-oauthlib
     #   sailthru-client
     #   slumber
@@ -2182,11 +2146,6 @@ virtualenv==20.30.0
     # via
     #   -r requirements/edx/testing.txt
     #   tox
-voluptuous==0.15.2
-    # via
-    #   -r requirements/edx/doc.txt
-    #   -r requirements/edx/testing.txt
-    #   ora2
 vulture==2.14
     # via -r requirements/edx/development.in
 walrus==0.9.4
@@ -2244,7 +2203,6 @@ xblock[django]==5.2.0
     #   edx-sga
     #   edx-when
     #   lti-consumer-xblock
-    #   ora2
     #   staff-graded-xblock
     #   xblock-drag-and-drop-v2
     #   xblock-google-drive
