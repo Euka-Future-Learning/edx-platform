@@ -8,6 +8,10 @@
     # via
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
+-e git+https://github.com/Euka-Future-Learning/edx-ora2.git@ac5172cc7f2d65c392a0866012d6305778e18529#egg=ora2
+    # via
+    #   -r requirements/edx/doc.txt
+    #   -r requirements/edx/testing.txt
 accessible-pygments==0.0.5
     # via
     #   -r requirements/edx/doc.txt
@@ -1171,11 +1175,6 @@ libsass==0.10.0
     # via
     #   -c requirements/edx/../constraints.txt
     #   -r requirements/edx/assets.txt
-loremipsum==1.0.5
-    # via
-    #   -r requirements/edx/doc.txt
-    #   -r requirements/edx/testing.txt
-    #   ora2
 lti-consumer-xblock==9.13.4
     # via
     #   -r requirements/edx/doc.txt
@@ -1388,10 +1387,6 @@ openedx-mongodbproxy==0.2.2
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
 optimizely-sdk==5.2.0
-    # via
-    #   -r requirements/edx/doc.txt
-    #   -r requirements/edx/testing.txt
-ora2==6.16.1
     # via
     #   -r requirements/edx/doc.txt
     #   -r requirements/edx/testing.txt
