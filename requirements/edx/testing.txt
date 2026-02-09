@@ -6,6 +6,8 @@
 #
 -e git+https://github.com/anupdhabarde/edx-proctoring-proctortrack.git@31c6c9923a51c903ae83760ecbbac191363aa2a2#egg=edx_proctoring_proctortrack
     # via -r requirements/edx/base.txt
+-e git+https://github.com/Euka-Future-Learning/edx-ora2.git@ac5172cc7f2d65c392a0866012d6305778e18529#egg=ora2
+    # via -r requirements/edx/base.txt
 acid-xblock==0.4.1
     # via -r requirements/edx/base.txt
 aiohappyeyeballs==2.6.1
@@ -892,10 +894,6 @@ lazy==1.6
     #   lti-consumer-xblock
     #   ora2
     #   xblock
-loremipsum==1.0.5
-    # via
-    #   -r requirements/edx/base.txt
-    #   ora2
 lti-consumer-xblock==9.13.4
     # via -r requirements/edx/base.txt
 lxml[html-clean]==5.3.2
@@ -1053,8 +1051,6 @@ openedx-learning==0.26.0
 openedx-mongodbproxy==0.2.2
     # via -r requirements/edx/base.txt
 optimizely-sdk==5.2.0
-    # via -r requirements/edx/base.txt
-ora2==6.16.1
     # via -r requirements/edx/base.txt
 packaging==25.0
     # via

@@ -90,3 +90,7 @@
 # django42 support PR merged but new release is pending.
 # https://github.com/openedx/edx-platform/issues/33431
 -e git+https://github.com/anupdhabarde/edx-proctoring-proctortrack.git@31c6c9923a51c903ae83760ecbbac191363aa2a2#egg=edx_proctoring_proctortrack
+
+# ora2 requires loremipsum for one of its unecessary management commands,
+# and it's causing build issues.
+-e git+https://github.com/Euka-Future-Learning/edx-ora2.git@ac5172cc7f2d65c392a0866012d6305778e18529#egg=ora2
